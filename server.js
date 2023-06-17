@@ -90,8 +90,11 @@ app.get('/image', (req, res) => {
 app.get('/removeBG', (req, res) => {
     res.sendFile(path.join(Path, "removeBG.html"))
 })
+app.get('/acticle', (req, res) => {
+    res.sendFile(path.join(Path, "acticle.html"))
+})
 app.get('/Acticle', (req, res) => {
-    res.sendFile(path.join(Path, "Acticle.html"))
+    res.sendFile(path.join(Path, "acticle.html"))
 })
 app.get('/Profile', (req, res) => {
     res.sendFile(path.join(Path, "profile.html"))
